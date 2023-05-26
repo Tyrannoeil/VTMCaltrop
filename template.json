@@ -1,0 +1,13 @@
+// Copiez et collez ce code JSON dans votre modèle Foundry VTT
+{
+  "name": "VTMCaltrop",
+  "version": "1.0.0",
+  "author": "Tyrannoeil",
+  "description": "Description du système",
+  "template": "systems/VTMCaltrop/template.html",
+  "css": "systems/VTMCaltrop/template.css",
+  "scripts": [],
+  "packs": [],
+  "folders": [],
+  "files": []
+}
