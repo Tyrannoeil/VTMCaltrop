@@ -1,5 +1,9 @@
 {
-  "name": "NomDuSysteme",
+  "name": "VTMCaltrop",
+  "template": "systems/VTMCaltrop/templates/Template_actor.html",
+  "styles": [
+    "systems/VTMCaltrop/styles/style.css"
+  ],
   "attributes": {
     "physical": {
       "label": "Physique",
@@ -22,5 +26,5 @@
   },
   "skills": [],
   "customSkills": []
-  <button id="rollDiceButton">Lancer les dés</button>
 }
+
