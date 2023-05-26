@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Feuille de personnage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Feuille de personnage</h1>
+    <div class="container">
+        <div>
+            <label for="name">Nom du personnage :</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="clan">Clan :</label>
+            <select id="clan" name="clan">
+                <option value="Banu Haqim">Banu Haqim</option>
+                <option value="Ventrue">Ventrue</option>
+                <option value="Lasombra">Lasombra</option>
+                <option value="Malkavian">Malkavian</option>
+                <option value="Nosferatu">Nosferatu</option>
+                <option value="Toreador">Toreador</option>
+                <option value="Tremere">Tremere</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">
+        <div class="attribute">
+            <label for="physical">Physique :</label>
+            <select id="physical" name="physical">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <div class="attribute">
+            <label for="mental">Mental :</label>
+            <select id="mental" name="mental">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <div class="attribute">
+            <label for="social">Social :</label>
+            <select id="social" name="social">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+    </div>
+    <div class="skills">
+        <h2>Compétences</h2>
+        <!-- Ajoutez ici les champs de texte pour les compétences -->
+    </div>
+    <button class="roll-button">Lancer les dés</button>
+    <script src="diceRoll.js"></script>
+</body>
+</html>
