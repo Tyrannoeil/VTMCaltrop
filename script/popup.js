@@ -32,7 +32,7 @@ Hooks.on('renderTemplate', async (app, html, data) => {
   
   async function renderDiceRollDialog() {
     // Retrieve the template for the pop-up dialog from a separate HTML file
-    const dialogHtml = await fetch('/systems/your-system/templates/dice_roll_dialog.html')
+    const dialogHtml = await fetch('/systems/VTMCaltrop/templates/dice_roll_dialog.html')
       .then(response => response.text())
       .catch(err => {
         console.error('Error loading dice_roll_dialog.html:', err);
