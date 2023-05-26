@@ -13,6 +13,6 @@
   ],
   "template": "systems/VTMCaltrop/template.json",
   "packs": [],
-  "languages": [fr],
+  "languages": ["fr"],
   "dependencies": []
 }
