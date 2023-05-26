@@ -1,13 +1,18 @@
-
 {
   "name": "VTMCaltrop",
-  "version": "1.0.0",
+  "title": "VTMCaltrop",
+  "description": "Système maison pour jouer à VTM inspiré par Caltrop.",
+  "version": "0.1.0",
+  "minimumCoreVersion": "0.8.0",
   "author": "Tyrannoeil",
-  "description": "Description du système",
-  "template": "systems/VTMCaltrop/template.html",
-  "css": "systems/VTMCaltrop/template.css",
-  "scripts": [],
+  "scripts": [
+    "systems/VTMCaltrop/module.js"
+  ],
+  "styles": [
+    "systems/VTMCaltrop/styles/style.css"
+  ],
+  "template": "systems/VTMCaltrop/template.json",
   "packs": [],
-  "folders": [],
-  "files": []
+  "languages": [],
+  "dependencies": []
 }
