@@ -22,4 +22,5 @@
   },
   "skills": [],
   "customSkills": []
+  <button id="rollDiceButton">Lancer les dés</button>
 }
