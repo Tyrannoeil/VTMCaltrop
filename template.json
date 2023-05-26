@@ -1,0 +1,25 @@
+{
+  "name": "NomDuSysteme",
+  "attributes": {
+    "physical": {
+      "label": "Physique",
+      "minValue": 0,
+      "maxValue": 5,
+      "diceSides": 4
+    },
+    "mental": {
+      "label": "Mental",
+      "minValue": 0,
+      "maxValue": 5,
+      "diceSides": 4
+    },
+    "social": {
+      "label": "Social",
+      "minValue": 0,
+      "maxValue": 5,
+      "diceSides": 4
+    }
+  },
+  "skills": [],
+  "customSkills": []
+}
