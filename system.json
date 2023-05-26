@@ -16,11 +16,9 @@
   "scripts": [
     "systems/VTMCaltrop/module.js"
   ],
-  "esmodules": [],
   "styles": [
     "systems/VTMCaltrop/styles/style.css"
   ],
-  "packs": [],
   "languages": [
     {
       "lang": "fr",
@@ -29,7 +27,7 @@
     }
   ],
   "socket": false,
-  "url": "",
-  "manifest": "",
+  "url": "https://github.com/Tyrannoeil/VTMCaltrop/",
+  "manifest": "https://github.com/Tyrannoeil/VTMCaltrop/edit/master/system.json",
   "download": ""
 }
