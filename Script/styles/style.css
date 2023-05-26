@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+input[type="text"],
+select {
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 1px solid red;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.attribute {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.skills {
+    margin-bottom: 20px;
+}
+
+.roll-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
